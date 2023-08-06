@@ -100,7 +100,7 @@ const numberOrString = (value: string | number): string => {
   return createError("this should never happen");
 };
 
-numberOrString(undefined);
+numberOrString("dsf");
 
 // custom type guard
 
